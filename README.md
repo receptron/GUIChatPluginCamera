@@ -11,8 +11,11 @@ This plugin allows users to take photos using their device's camera. It opens a 
 ## Installation
 
 ```bash
-yarn add @gui-chat-plugin/camera
+yarn add @gui-chat-plugin/camera gui-chat-protocol
 ```
+
+> `gui-chat-protocol` is a peer dependency — install it alongside the plugin; the host application provides the runtime and this plugin only declares the compatible range.
+
 
 ## Usage
 
