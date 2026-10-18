@@ -1,6 +1,7 @@
 # @gui-chat-plugin/camera
 
 [![npm version](https://badge.fury.io/js/%40gui-chat-plugin%2Fcamera.svg)](https://www.npmjs.com/package/@gui-chat-plugin/camera)
+[![scoria](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/receptron/GUIChatPluginCamera/badges/scoria.json)](https://github.com/receptron/GUIChatPluginCamera/actions/workflows/scoria.yml)
 
 A camera photo capture plugin for [MulmoChat](https://github.com/receptron/MulmoChat).
 
