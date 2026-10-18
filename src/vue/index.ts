@@ -15,10 +15,7 @@ import Preview from "./Preview.vue";
 /**
  * Captures a photo from the user's camera with preview UI
  */
-const takePhoto = async (
-  __context: ToolContext,
-  __args: CameraArgs,
-): Promise<ToolResult<ImageToolData>> => {
+const takePhoto = async (__context: ToolContext, __args: CameraArgs): Promise<ToolResult<ImageToolData>> => {
   return new Promise((resolve) => {
     // Create container for the camera component
     const container = document.createElement("div");
@@ -66,11 +63,7 @@ export const plugin: ToolPlugin<ImageToolData, unknown, CameraArgs> = {
   waitingMessage: "Taking photo...",
   isEnabled: () => {
     // Camera API is available in most modern browsers
-    return (
-      typeof navigator !== "undefined" &&
-      !!navigator.mediaDevices &&
-      !!navigator.mediaDevices.getUserMedia
-    );
+    return typeof navigator !== "undefined" && !!navigator.mediaDevices && !!navigator.mediaDevices.getUserMedia;
   },
   viewComponent: View,
   previewComponent: Preview,
