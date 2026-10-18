@@ -1,7 +1,7 @@
 {
   "report": {
     "schemaVersion": 1,
-    "root": "/private/tmp/claude-501/-Users-isamu-ss-llm-lab/05aa564a-1040-4f30-b316-122f241bad1d/scratchpad/repos/camera",
+    "root": ".",
     "label": "@gui-chat-plugin/camera",
     "profile": "library",
     "stacks": [
@@ -772,5 +772,5 @@
       "comparable": false
     }
   },
-  "createdAt": "2026-10-18T03:03:19.852Z"
+  "createdAt": "2026-10-18T03:43:32.853Z"
 }
